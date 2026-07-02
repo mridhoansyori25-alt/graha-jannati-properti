@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semua Kavling — LogoKavling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="kavling">
+
+  <div id="navbar-placeholder"></div>
+
+  <section class="section">
+    <div class="container">
+      <h1 style="margin-bottom:20px;">Semua kavling</h1>
+
+      <div class="filter-bar" id="filterBar">
+        <select id="filterStatus">
+          <option value="">Semua status</option>
+          <option value="tersedia">Tersedia</option>
+          <option value="terjual">Terjual</option>
+        </select>
+        <select id="filterLokasi">
+          <option value="">Semua lokasi</option>
+        </select>
+        <input type="number" id="filterHargaMax" placeholder="Harga maksimal (Rp)">
+        <input type="number" id="filterLuasMin" placeholder="Luas minimal (m²)">
+        <select id="sortBy">
+          <option value="">Urutkan</option>
+          <option value="harga_asc">Harga terendah</option>
+          <option value="harga_desc">Harga tertinggi</option>
+          <option value="luas_desc">Luas terbesar</option>
+        </select>
+        <span class="filter-result-count" id="resultCount"></span>
+      </div>
+
+      <button class="btn btn-primary filter-toggle-mobile" id="filterToggleMobile">Filter</button>
+
+      <div class="grid-kavling" id="kavlingGrid">
+        <p class="text-muted">Memuat kavling...</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/compare.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/kavling-list.js"></script>
+</body>
+</html>

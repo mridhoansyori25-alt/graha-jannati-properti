@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak — LogoKavling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="kontak">
+
+  <div id="navbar-placeholder"></div>
+
+  <section class="section">
+    <div class="container" style="max-width:640px;">
+      <h1 style="margin-bottom:8px;">Hubungi kami</h1>
+      <p class="text-secondary" style="margin-bottom:24px;">
+        Punya pertanyaan tentang kavling tertentu? Kirim pesan atau chat langsung via WhatsApp.
+      </p>
+
+      <a href="https://wa.me/6282157603218" target="_blank" class="btn btn-whatsapp" style="margin-bottom:32px;">Chat via WhatsApp</a>
+
+      <form onsubmit="event.preventDefault(); alert('Pesan terkirim. Kami akan segera menghubungi Anda.');">
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" placeholder="Nama lengkap Anda" required>
+        </div>
+        <div class="form-group">
+          <label for="telepon">Nomor telepon</label>
+          <input type="tel" id="telepon" placeholder="08xxxxxxxxxx" required>
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" placeholder="Tulis pertanyaan Anda di sini"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+      </form>
+
+      <div style="margin-top:32px; font-size:14px;" class="text-secondary">
+        <p>Telepon / WhatsApp: +62 821-5760-3218</p>
+        <p>Email: halo@logokavling.id</p>
+        <p>Alamat: Loa Janan, Kutai Kartanegara</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/compare.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>

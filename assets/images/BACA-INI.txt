@@ -1,0 +1,2 @@
+Taruh file foto kavling di sini, contoh: a01-1.jpg, a01-2.jpg, dst.
+Nama file harus cocok dengan path yang ditulis di data/kavling.json (field "foto").

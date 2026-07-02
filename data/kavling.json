@@ -1,0 +1,136 @@
+{
+  "kavling": [
+    {
+      "id": "A-01",
+      "nama": "Kavling Cempaka",
+      "status": "tersedia",
+      "unggulan": true,
+      "lokasi": {
+        "kota": "Loa Janan",
+        "wilayah": "Kutai Kartanegara",
+        "alamat": "Jl. Cempaka Raya, Loa Janan",
+        "lat": -0.6013,
+        "lng": 117.0672
+      },
+      "luas": 300,
+      "harga": 185000000,
+      "legalitas": "SHM",
+      "akses_jalan": "Jalan aspal 6 meter",
+      "deskripsi": "Kavling siap bangun di kawasan berkembang, dekat akses jalan utama dan fasilitas umum.",
+      "foto": [
+        "assets/images/Loa-Kulu-Kota/loa-kulu.jpg"
+      ]
+    },
+    {
+      "id": "A-02",
+      "nama": "Kavling Mahoni",
+      "status": "terjual",
+      "unggulan": false,
+      "lokasi": {
+        "kota": "Loa Janan",
+        "wilayah": "Kutai Kartanegara",
+        "alamat": "Jl. Mahoni No. 12, Loa Janan",
+        "lat": -0.6041,
+        "lng": 117.0655
+      },
+      "luas": 250,
+      "harga": 150000000,
+      "legalitas": "SHM",
+      "akses_jalan": "Jalan aspal 4 meter",
+      "deskripsi": "Kavling nyaman di lingkungan asri, cocok untuk hunian keluarga.",
+      "foto": [
+        "assets/images/a02-1.jpg",
+        "assets/images/a02-2.jpg"
+      ]
+    },
+    {
+      "id": "B-05",
+      "nama": "Kavling Jati",
+      "status": "tersedia",
+      "unggulan": true,
+      "lokasi": {
+        "kota": "Samarinda",
+        "wilayah": "Samarinda Seberang",
+        "alamat": "Jl. Jati Indah, Samarinda",
+        "lat": -0.5354,
+        "lng": 117.1401
+      },
+      "luas": 400,
+      "harga": 260000000,
+      "legalitas": "SHM",
+      "akses_jalan": "Jalan aspal 8 meter",
+      "deskripsi": "Kavling premium dengan akses langsung ke jalan protokol, potensi investasi tinggi.",
+      "foto": [
+        "assets/images/b05-1.jpg",
+        "assets/images/b05-2.jpg",
+        "assets/images/b05-3.jpg"
+      ]
+    },
+    {
+      "id": "B-06",
+      "nama": "Kavling Meranti",
+      "status": "tersedia",
+      "unggulan": false,
+      "lokasi": {
+        "kota": "Samarinda",
+        "wilayah": "Samarinda Seberang",
+        "alamat": "Jl. Meranti No. 3, Samarinda",
+        "lat": -0.5371,
+        "lng": 117.1389
+      },
+      "luas": 200,
+      "harga": 120000000,
+      "legalitas": "HGB",
+      "akses_jalan": "Jalan aspal 4 meter",
+      "deskripsi": "Kavling ukuran compact, cocok untuk investasi awal dengan budget terjangkau.",
+      "foto": [
+        "assets/images/b06-1.jpg",
+        "assets/images/b06-2.jpg"
+      ]
+    },
+    {
+      "id": "C-03",
+      "nama": "Kavling Ulin",
+      "status": "tersedia",
+      "unggulan": false,
+      "lokasi": {
+        "kota": "Tenggarong",
+        "wilayah": "Kutai Kartanegara",
+        "alamat": "Jl. Ulin Permai, Tenggarong",
+        "lat": -0.4013,
+        "lng": 116.9938
+      },
+      "luas": 350,
+      "harga": 210000000,
+      "legalitas": "SHM",
+      "akses_jalan": "Jalan aspal 6 meter",
+      "deskripsi": "Kavling luas dekat pusat kota Tenggarong, lingkungan tenang dan berkembang.",
+      "foto": [
+        "assets/images/c03-1.jpg",
+        "assets/images/c03-2.jpg"
+      ]
+    },
+    {
+      "id": "C-04",
+      "nama": "Kavling Bengkirai",
+      "status": "terjual",
+      "unggulan": false,
+      "lokasi": {
+        "kota": "Tenggarong",
+        "wilayah": "Kutai Kartanegara",
+        "alamat": "Jl. Bengkirai Asri, Tenggarong",
+        "lat": -0.4032,
+        "lng": 116.9955
+      },
+      "luas": 280,
+      "harga": 168000000,
+      "legalitas": "SHM",
+      "akses_jalan": "Jalan aspal 5 meter",
+      "deskripsi": "Kavling strategis dekat fasilitas pendidikan dan kesehatan.",
+      "foto": [
+        "assets/images/c04-1.jpg",
+        "assets/images/c04-2.jpg"
+      ]
+    }
+  ]
+}

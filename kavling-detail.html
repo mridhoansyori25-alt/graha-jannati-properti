@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Kavling — LogoKavling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="kavling">
+
+  <div id="navbar-placeholder"></div>
+
+  <section class="section">
+    <div class="container" id="detailWrap">
+
+      <p class="text-muted" style="font-size:13px; margin-bottom:16px;">
+        <a href="index.html">Beranda</a> / <span id="breadcrumbLokasi"></span> / <span id="breadcrumbNama"></span>
+      </p>
+
+      <div class="gallery">
+        <div class="gallery-main" id="galleryMain"></div>
+        <div class="gallery-thumbs" id="galleryThumbs"></div>
+      </div>
+
+      <div class="detail-header">
+        <div>
+          <div id="statusBadgeDetail"></div>
+          <h1 id="namaKavling" style="margin:8px 0 4px;"></h1>
+          <p class="text-secondary" id="alamatKavling"></p>
+        </div>
+        <div class="detail-harga">
+          <div class="harga-total" id="hargaTotal"></div>
+          <div class="harga-per-m2" id="hargaPerM2"></div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1.3fr 1fr; gap:32px;">
+        <div>
+          <h3 style="margin-bottom:12px;">Spesifikasi</h3>
+          <table class="spec-table" id="specTable"></table>
+
+          <h3 style="margin:24px 0 12px;">Deskripsi</h3>
+          <p class="text-secondary" id="deskripsiKavling"></p>
+
+          <h3 style="margin:24px 0 12px;">Lokasi</h3>
+          <div class="map-embed" id="mapEmbed"></div>
+        </div>
+
+        <div>
+          <div class="detail-actions" style="flex-direction:column;">
+            <a href="#" id="waButton" target="_blank" class="btn btn-whatsapp btn-block">Chat WhatsApp</a>
+            <label class="btn btn-secondary btn-block" style="cursor:pointer;">
+              <input type="checkbox" id="compareCheckboxDetail" style="margin-right:8px;">
+              Tambahkan ke perbandingan
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <section style="margin-top:48px;">
+        <h2 style="margin-bottom:20px;">Kavling serupa</h2>
+        <div class="grid-kavling" id="kavlingSerupa"></div>
+      </section>
+
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/compare.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/kavling-detail.js"></script>
+</body>
+</html>
