@@ -1,20 +1,35 @@
-<nav class="navbar">
-  <div class="navbar-inner">
-    <a href="index.html" class="navbar-logo">LogoKavling</a>
+<nav class="navbar fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-gray-200/80 shadow-sm">
+  <div class="navbar-inner flex justify-between items-center px-6 h-20 max-w-7xl mx-auto">
+    
+    <!-- Bagian Kiri: Logo PT Utama Berjejer dengan Nama Brand -->
+    <a href="index.html" class="navbar-logo flex items-center gap-3 group">
+      <!-- Membatasi tinggi gambar logo_pt.png agar pas dan presisi di dalam navbar (h-12) -->
+      <img src="assets/images/logo_pt.png" alt="Logo Graha Jati" class="h-4 w-auto object-contain">
+      <!-- Teks brand Graha Jati di samping kanan logo -->
+      <span class="text-xl font-bold text-[#006948] tracking-tight whitespace-nowrap">Graha Jati</span>
+    </a>
 
-    <ul class="navbar-links" id="navbarLinks">
-      <li><a href="index.html" data-nav="index">Beranda</a></li>
-      <li><a href="kavling.html" data-nav="kavling">Semua Kavling</a></li>
-      <li><a href="bandingkan.html" data-nav="bandingkan" class="compare-count">Bandingkan
-        <span class="badge-count" id="compareCount" style="display:none;">0</span>
-      </a></li>
-      <li><a href="tentang.html" data-nav="tentang">Tentang</a></li>
-      <li><a href="kontak.html" data-nav="kontak">Kontak</a></li>
+    <!-- Bagian Tengah: Link Navigasi Asli -->
+    <ul class="navbar-links hidden md:flex items-center space-x-6 text-sm font-medium text-gray-600" id="navbarLinks">
+      <li><a class="hover:text-[#006948] transition-colors" href="index.html" data-nav="index">Beranda</a></li>
+      <li><a class="hover:text-[#006948] transition-colors" href="kavling.html" data-nav="kavling">Semua Kavling</a></li>
+      <li>
+        <a class="hover:text-[#006948] transition-colors compare-count flex items-center gap-1" href="bandingkan.html" data-nav="bandingkan">
+          Bandingkan
+          <span class="badge-count bg-[#006948] text-white text-[10px] px-2 py-0.5 rounded-full font-bold" id="compareCount" style="display:none;">0</span>
+        </a>
+      </li>
+      <li><a class="hover:text-[#006948] transition-colors" href="tentang.html" data-nav="tentang">Tentang</a></li>
+      <li><a class="hover:text-[#006948] transition-colors" href="kontak.html" data-nav="kontak">Kontak</a></li>
     </ul>
 
-    <div class="navbar-actions">
-      <a href="kontak.html" class="btn btn-primary btn-sm">Hubungi Kami</a>
-      <button class="navbar-toggle" id="navbarToggle" aria-label="Buka menu">&#9776;</button>
+    <!-- Bagian Kanan: Tombol Hubungi Kami & Toggle Menu Mobile -->
+    <div class="navbar-actions flex items-center gap-4">
+      <a href="kontak.html" class="btn btn-primary btn-sm hidden sm:inline-block bg-[#1e3625] hover:bg-[#15261a] text-white text-xs font-semibold px-5 py-2.5 rounded-md transition-colors whitespace-nowrap">
+        Hubungi Kami
+      </a>
+      <button class="navbar-toggle md:hidden text-[#006948] text-2xl focus:outline-none" id="navbarToggle" aria-label="Buka menu">&#9776;</button>
     </div>
+    
   </div>
 </nav>

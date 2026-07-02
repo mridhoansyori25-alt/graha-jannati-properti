@@ -19,10 +19,21 @@
 }
 
 .navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Jarak antara logo dan teks */
   font-family: var(--font-display);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* Aturan baru khusus mengunci ukuran gambar di dalam logo navbar */
+.navbar-logo img {
+  height: 40px; /* Mengunci tinggi gambar agar pas dengan navbar */
+  width: auto;  /* Lebar otomatis menyesuaikan agar tidak gepeng */
+  object-contain: contain;
 }
 
 .navbar-links {
