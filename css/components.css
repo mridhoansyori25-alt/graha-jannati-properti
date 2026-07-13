@@ -340,6 +340,14 @@
   border-top: 1px solid var(--color-border);
 }
 
+.footer-bottom img {
+  height: 50px; /* Mengunci tinggi gambar agar pas dengan navbar */
+  width: auto;  /* Lebar otomatis menyesuaikan agar tidak gepeng */
+  object-contain: contain;
+  alighn-items: center;
+  margin: 0 auto;
+}
+
 .kavling-card-compare {
   display: flex;
   align-items: center;
