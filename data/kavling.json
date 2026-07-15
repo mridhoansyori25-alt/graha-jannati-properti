@@ -23,13 +23,13 @@
     },
     {
       "id": "A-02",
-      "nama": "Kavling Mahoni",
-      "status": "terjual",
-      "unggulan": false,
+      "nama": "Mangkurawang",
+      "status": "tersedia",
+      "unggulan": true,
       "lokasi": {
         "kota": "Loa Janan",
         "wilayah": "Kutai Kartanegara",
-        "alamat": "Jl. Mahoni No. 12, Loa Janan",
+        "alamat": "Jl. Mangkurawang No. 12, Loa Janan",
         "lat": -0.6041,
         "lng": 117.0655
       },
@@ -39,8 +39,10 @@
       "akses_jalan": "Jalan aspal 4 meter",
       "deskripsi": "Kavling nyaman di lingkungan asri, cocok untuk hunian keluarga.",
       "foto": [
-        "assets/images/a02-1.jpg",
-        "assets/images/a02-2.jpg"
+        "assets/images/Mangkurawang/mangkurawang.jpeg",
+        "assets/images/Mangkurawang/mangkurawang2.jpeg",
+        "assets/images/Mangkurawang/mangkurawang3.jpeg",
+        "assets/images/Mangkurawang/mangkurawang4.jpeg"
       ]
     },
     {
