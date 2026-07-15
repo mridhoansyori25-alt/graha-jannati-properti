@@ -47,13 +47,13 @@
     },
     {
       "id": "B-05",
-      "nama": "Kavling Jati",
+      "nama": "Gunung Menyapa",
       "status": "tersedia",
       "unggulan": true,
       "lokasi": {
-        "kota": "Samarinda",
-        "wilayah": "Samarinda Seberang",
-        "alamat": "Jl. Jati Indah, Samarinda",
+        "kota": "Tenggarong",
+        "wilayah": "Tenggarong",
+        "alamat": "Jl. Gunung Menyapa, Tenggarong",
         "lat": -0.5354,
         "lng": 117.1401
       },
@@ -63,16 +63,16 @@
       "akses_jalan": "Jalan aspal 8 meter",
       "deskripsi": "Kavling premium dengan akses langsung ke jalan protokol, potensi investasi tinggi.",
       "foto": [
-        "assets/images/b05-1.jpg",
-        "assets/images/b05-2.jpg",
-        "assets/images/b05-3.jpg"
+        "assets/images/Menyapa/menyapa(1).jpeg",
+        "assets/images/Menyapa/menyapa(2).png",
+        "assets/images/Menyapa/menyapa(3).png"
       ]
     },
     {
       "id": "B-06",
-      "nama": "Kavling Meranti",
+      "nama": "Rapak Lambur",
       "status": "tersedia",
-      "unggulan": false,
+      "unggulan": true,
       "lokasi": {
         "kota": "Samarinda",
         "wilayah": "Samarinda Seberang",
@@ -86,8 +86,9 @@
       "akses_jalan": "Jalan aspal 4 meter",
       "deskripsi": "Kavling ukuran compact, cocok untuk investasi awal dengan budget terjangkau.",
       "foto": [
-        "assets/images/b06-1.jpg",
-        "assets/images/b06-2.jpg"
+        "assets/images/Rapak-Lambur/rapak-lambur(1).jpeg",
+        "assets/images/Rapak-Lambur/rapak-lambur(2).jpeg",
+        "assets/images/Rapak-Lambur/rapak-lambur(3).jpeg"
       ]
     }
   ]
